@@ -29,8 +29,10 @@ main {
     /* set left and right margin to auto */
     margin: 0 auto;
     padding: 30px 20px;
-    /* footer position fix */
-    
+    /* footer position fix to bottom 
+    min height is equal to t 100% viewport heigth minus
+    the height of the header and footer elements. */
+    min-height: calc(100vh - 211px - 58px);
 }
 article {
     background-color: #e6ffe6;
