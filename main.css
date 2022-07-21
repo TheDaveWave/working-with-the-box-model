@@ -30,3 +30,26 @@ main {
     margin: 0 auto;
     padding: 30px 20px;
 }
+article {
+    background-color: #e6ffe6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+/* last child selector matches every element that is the last 
+child of its parent.
+The :last-child selector allows you to target the last element
+ directly inside its containing element. It is defined in the 
+ CSS Selectors Level 3 spec as a “structural pseudo-class”, 
+ meaning it is used to style content based on its relationship 
+ with parent and sibling content.*/
+article:last-child {
+    margin-bottom: 0;
+}
+article h3 {
+    margin: 10px 0 25px 0;
+}
+article p {
+    margin-top: 16px;
+    line-height: 24px;
+}
