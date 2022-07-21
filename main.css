@@ -1,3 +1,12 @@
+/* ' * ' is the CSS selector for selecting all elements. */
 * {
-    
+    margin: 0;
+    padding: 0;
+    /* Box sizing property includes an elements total width
+    and height. By setting the box sizing to border box padding
+    and border are included in the width and height. */
+    box-sizing: border-box;
+}
+body {
+    background-color: #ccffcc;
 }
