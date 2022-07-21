@@ -23,3 +23,10 @@ header h1 {
 header p {
     font-size: 22px;
 }
+main {
+    /* Set to 90% of viewport width */
+    width: 90vw;
+    /* set left and right margin to auto */
+    margin: 0 auto;
+    padding: 30px 20px;
+}
